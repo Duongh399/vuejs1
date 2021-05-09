@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VueJS
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+</head>
+
+<body>
+    <h3>Declarative Rendering - Render theo hướng khai báo</h3>
+    <div id="app">
+        {{ message1 }}
+        <hr>
+        <div id="app-2">
+            <span v-bind:title="message2">
+                Hover your mouse over me for a few seconds
+                to see my dynamically bound title!
+            </span>
+        </div>
+        <hr>
+        <h3>Conditionals and Loops - Điều kiện và vòng lặp</h3>
+
+        <hr>
+        <h3>Handling User Input - Xử lí thông tin đầu vào của người dùng</h3>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
